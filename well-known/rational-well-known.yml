@@ -1,0 +1,29 @@
+generated: '2026-07-20'
+method: searched
+source: https://rational.to/.well-known/security.txt
+host: https://rational.to
+documents:
+  - path: /.well-known/security.txt          # RFC 9116
+    status: 200
+    file: rational-security.txt
+  - path: /.well-known/openid-configuration   # OIDC discovery
+    status: 404
+  - path: /.well-known/oauth-authorization-server  # RFC 8414
+    status: 404
+  - path: /.well-known/api-catalog             # RFC 9727
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+extras:
+  # Not under /.well-known but part of Rational's agent-native discovery surface
+  - path: /ai-discovery.json
+    status: 200
+    file: rational-ai-discovery.json
+    note: Custom AI discovery manifest (schemaVersion 2026-07-08) with entity description, guardrails, and page map.
+  - path: /llms.txt
+    status: 200
+    note: See llms/rational-llms.txt
+  - path: /humans.txt
+    status: 200
+  - path: /sitemap.xml
+    status: 200

@@ -1,0 +1,8 @@
+# Rational, Inc. — vulnerability reporting (RFC 9116)
+# A dedicated security@ alias and disclosure policy are forthcoming; this
+# contact is actively monitored.
+Contact: mailto:founders@rational.to
+Expires: 2027-07-01T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://rational.to/.well-known/security.txt
+# Reports are triaged promptly on business days.
