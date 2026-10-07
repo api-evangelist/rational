@@ -1,0 +1,36 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://rational.to/ai-accounting-pricing.html
+sources:
+- https://rational.to/ai-accounting-pricing.html
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Startup plan priced at $399/month ($4,788/year); enterprise is custom quote.
+plan_count: 2
+currency: USD
+plans:
+- name: For startups
+  price_text: Starting at $399 / month
+  price: 399
+  currency: USD
+  period: month
+  unit: single U.S. C-corp
+  included_quota: Monthly bookkeeping and financial statements; Human review and access to accounting
+    support; Annual federal corporate tax return; One state return and Delaware franchise filing service
+  overage: Taxes, government fees and historical cleanup are separate. Annual agreement, $4,788 per year
+    at the starting rate.
+- name: For enterprises
+  price_text: Custom
+  period: none
+  included_quota: AP, AR and month-end close workflows; connections to existing accounting systems; permissions
+    and human approval process; implementation scoped with finance team
