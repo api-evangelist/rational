@@ -64,6 +64,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Pricing
+  url: https://rational.to/ai-accounting-pricing.html
+- type: Plans
+  url: plans/rational-plans-pricing.yml
 - type: VulnerabilityDisclosure
   url: security/rational-vulnerability-disclosure.yml
 - type: DomainSecurity
