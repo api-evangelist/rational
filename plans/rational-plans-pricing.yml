@@ -34,3 +34,25 @@ plans:
   period: none
   included_quota: AP, AR and month-end close workflows; connections to existing accounting systems; permissions
     and human approval process; implementation scoped with finance team
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - hybrid
+  units: []
+  plans:
+  - name: For startups
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: For enterprises
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
