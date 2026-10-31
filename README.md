@@ -64,6 +64,91 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Rational is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Rational (rational.to) is a Y Combinator (S26) company building AI employees, or "AI coworkers," for accounting and finance teams. Its AI agents onboard themselves to a firm, build a company "brain," and perform recurring accounting work — accounts payable, AR collections, bookkeeping, bank reconciliation, document collection, expense review, and month-end close — while keeping postings, payment release, and policy-sensitive decisions behind explicit human approval gates with an inspectable review history. Founded in 2026 in San Francisco by Jibril Moinuddin and Christ Xu, Rational targets accounting firms and finance teams facing a structural capacity and labor shortage. As an early-stage company it currently exposes a marketing and agent-discovery surface (llms.txt, ai-discovery.json, RFC 9116 security.txt) rather than a public developer API; this profile captures that surface and will be enriched as a developer platform ships.
 
-Backed by: y-combinator
+**Areas:** Company · Artificial Intelligence · AI Agents · Accounting · Finance · Bookkeeping · Accounts Payable · Automation · Fintech · Y Combinator
+
+## Rational on APIs.io
+
+Everything profiled for Rational is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rational/](https://apis.io/providers/rational/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rational Domain Security](https://apis.io/security/rational/rational-domain-security/)
+- [Rational Vulnerability Disclosure](https://apis.io/security/rational/rational-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Rational Plans Pricing](https://apis.io/plans/rational/rational-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://rational.to/)
+- [Pricing](https://rational.to/ai-accounting-pricing.html)
+- [Support](https://rational.to/book-demo.html)
+- [Blog](https://rational.to/blog.html)
+- [Security](https://rational.to/security.html)
+- [GitHub](https://github.com/rational-to)
+
+## API Evangelist rating
+
+**Kin Score 12.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 31.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rational/](https://apis.io/providers/rational/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Rational: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rational/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
